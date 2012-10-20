@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="copyright" content="2011 &copy; {{ site.author.name }}" /> 
+    <meta name="title" content="Alexander Brevig's Webspace" /> 
+    <meta name="description" content="Welcome to my webspace!" /> 
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="{{ ASSET_PATH }}/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+
+     <div id="header"> 
+
+
+    <div id="alexanderbrevig_com"></div>
+    <div id="connect">
+      <a href="http://twitter.com/alexanderbrevig">twitter</a> 
+      <a href="http://facebook.com/alexanderbrevig">facebook</a> 
+      <a href="https://plus.google.com/u/0/104022417429733847046/posts">google+</a> 
+      <a href="http://no.linkedin.com/in/alexanderbrevig">linkedin</a> 
+      <br />
+      <a href="http://www.youtube.com/user/AlexanderBrevig">youtube</a> 
+      <a href="http://soundcloud.com/alexanderbrevig">soundcloud</a> 
+      <a href="https://github.com/AlexanderBrevig/">github</a> 
+      <a href="https://bitbucket.org/alexanderbrevig">bitbucket</a> 
+    </div>
+    <div id="menu">
+          
+      <div id="logo"></div> 
+      <ul id="links">
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include JB/pages_list %}
+      </ul>
+
+      <div id="offsite">
+        {
+        <a href="http://immetic.com/" title="My progressive metal band">immetic</a> 
+        }
+      </div>
+      <div id="portrait"></div>
+      <div id="menu_fold"></div>
+    </div>
+  </div> 
+  <div id="menu_fold_extension"></div>
+  <div id="container">
+    <div id="banner" style="display:none;"></div>
+    
+  {{ content }}
+
+  </div>
+    {% include JB/analytics %}
+  </body>
+</html>
