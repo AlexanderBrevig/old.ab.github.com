@@ -9,24 +9,24 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
-tagline: Site Tagline
+title : Alexander Brevig
+tagline: ∀ x ∃ y Love(x, y)
 author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Alexander Brevig
+  email : alexanderbrevig@gmail.com
+  github : alexanderbrevig
+  twitter : alexanderbrevig
+  feedburner : alexanderbrevig
 
-# The production_url is only used when full-domain names are needed
+# The production_url is only used when full-theme names are needed
 # such as sitemap.txt 
 # Most places will/should use BASE_PATH to make the urls
 #
-# If you have set a CNAME (pages.github.com) set your custom domain here.
-# Else if you are pushing to username.github.com, replace with your username.
+# If you have set a CNAME (pages.github.com) set your custom theme here.
+# Else if you are pushing to alexanderbrevig.github.com, replace with your alexanderbrevig.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.com
+production_url : http://alexanderbrevig.github.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -41,14 +41,14 @@ JB :
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Pages (http://username.github.com)
+  # GitHub Pages (http://alexanderbrevig.github.com)
   #   DO NOT SET BASE_PATH 
   #   (urls will be prefixed with "/" and work relatively)
   #
-  # GitHub Project Pages (http://username.github.com/project-name)
+  # GitHub Project Pages (http://alexanderbrevig.github.com/project-name)
   #
   #   A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
-  #  REQUIRED! Set BASE_PATH to: http://username.github.com/project-name
+  #  REQUIRED! Set BASE_PATH to: http://alexanderbrevig.github.com/project-name
   #
   # CAUTION:
   #   - When in Localhost, your site will run from root "/" regardless of BASE_PATH
@@ -81,16 +81,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jekyllbootstrap
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+      short_name : alexanderbreviggh
    
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
@@ -99,7 +90,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-123-12'
+        tracking_id : 'UA-35728509-1'
     getclicky :
       site_id : 
     mixpanel :
