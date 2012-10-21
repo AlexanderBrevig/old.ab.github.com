@@ -1,46 +1,29 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title : Welcome to the webspace of Alexander Brevig
+tagline: 
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+<div class="row">
+  <div class="span6">
+    <div id="programmerbyheart" class="well well-large">
+      <h1>Programmer by heart</h1>
+      <p>My favorite family of languages is the huge <a href="http://en.wikipedia.org/wiki/Category:C_programming_language_family">C family</a>, and my crush these days is with <a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a> and <a href="http://en.wikipedia.org/wiki/.NET_Framework">.NET</a>.
+      Among my favorite frameworks and runtimes for the <a href="http://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a> language I should at least mention; <a href="http://en.wikipedia.org/wiki/Windows_Presentation_Foundation">WPF</a>, <a href="http://en.wikipedia.org/wiki/ASP.NET_MVC_Framework">MVC3</a> and <a href="http://en.wikipedia.org/wiki/Entity_Framework">Entity Framework</a>.
+      There is only one thing that is even more interesting and lovable, and that is the <a href="http://wiring.org.co">Wiring</a> <a href="http://wiring.uniandes.edu.co/source/trunk/wiring/">Open Source</a> platform for creating interactable physical objects. It is programmable in <a href="http://en.wikipedia.org/wiki/C%2B%2B">C++</a> with a beautiful <a href="http://en.wikipedia.org/wiki/Api" title="Application Programming Interface">API</a> and a supportive community. <em>Check it out!</em>
+      </p>
+      <p>For an overview of what tools I use and consider <em>must have</em>, refer to the <a href="tools.php">tools</a> section.</p>
+      <p>No programmer with dignity should have a website without having a showcase of the previous and current projects. So, to stay away from trouble; here is my <a href="projects.php">projects</a>.</p>
+    </div>
+  </div>
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
-## Update Author Attributes
-
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
-
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+  <div class="span6">
+    <div id="musicianinspirit" class="well well-large">
+      <h1>Musician in spirit</h1>
+      <p>I've pretty much been singing or making tones all my life. When I was two years old I could play the drums (at least with my hands as my feet did not reach the pedals just yet). Video will soon be posted to YouTube. When I was about six I started to play synth, and my love for melodies became evident. As a result of that, my parents got me my first six stringed electric guitar, and it was a match made somewhere really nice! I now play extended range eight string guitars, preferably with fanned/slanted frets.</p>
+      <p>For a complete list of my instruments and gear visit the <a href="instruments.php">instruments</a> section.</p>
+      <p>I play the guitar and sing in my progressive metal band <a href="http://immetic.com">IMMETIC</a></p>
+    </div>
+  </div>
+</div>
