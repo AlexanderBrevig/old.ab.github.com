@@ -1,3 +1,5 @@
+
+
 body {
 	color:#6d6553;
 }
@@ -8,6 +10,7 @@ h1,h2,h3,h4,h5,h6 {
 
 a {
 	color:#536c6d;
+	text-decoration: underline;
 }
 
 a:hover {
@@ -20,6 +23,10 @@ a:hover {
 
 #links .navlink a:hover {
 	color:#f4eef5;
+}
+
+.navlink {
+	display: block;
 }
 
 #menu_fold_extension {
@@ -170,366 +177,8 @@ h1,h2,h3,h4,h5 {
 	margin-bottom:.3em;
 }
 
-h3 span,h4 span {
-	display:inline-block;
-	width:130px;
-}
-
-ul {
-	margin-left:2em;
-}
-
-blockquotes {
-	font-style:italic;
-	padding:1em;
-}
-
-pre {
-	font-family:Menlo, 'Courier New', Terminal, monospace;
-	background-color:#232323;
-	color:#E6E0DB;
-	padding:10px;
-	display:inline-block;
-	margin-left:20px;
-	border-left:5px solid #536C6D;
-	line-height:10px;
-	font-size:12px;
-}
-
-#notice {
-	position:absolute;
-	top:0;
-	left:1030px;
-	width:200px;
-	background:rgba(255,255,255,0.9);
-	border-bottom:4px solid #000;
-	z-index:10;
-	text-align:center;
-}
-
-#notice h1 {
-	font-size:1em;
-	margin:0;
-	padding:0;
-	display:inline;
-}
-
-#notice p {
-	display:block;
-	margin:0;
-	padding:0;
-}
-
-#notice div {
-	border-bottom:1px solid rgba(0,0,0,0.3);
-}
-
-#alexanderbrevig_com {
-	position:absolute;
-	top:0;
-	left:0;
-	width:700px;
-	height:90px;
-	background:url(alexanderbrevig.png);
-}
-
-#menu {
-	position:absolute;
-	top:0;
-	left:1030px;
-	width:200px;
-	height:680px;
-}
-
-#logo {
-	position:absolute;
-	top:10px;
-	left:12px;
-	background:url(ab_menu.png);
-	width:176px;
-	height:176px;
-}
-
-#links {
-	position:absolute;
-	top:180px;
-	height:300px;
-	margin: 0;
-}
-
-#links .navlink {
-	position:relative;
-	left:-20px;
-	display:block;
-	width:240px;
-	height:90px;
-	background:url(menu_item.png) no-repeat;
-	padding-top:30px;
-	font-size:25px;
-	text-align:center;
-}
-
-#offsite {
-	position:absolute;
-	top:650px;
-	width:200px;
-	text-align:center;
-	font-size:25px;
-	color:#baaf97;
-}
-
-#offsite a {
-	color:#baaf97;
-}
-
-#offsite a:hover {
-	color:#f4eef5;
-}
-
-#menu_fold {
-	position:absolute;
-	top:820px;
-	height:200px;
-	width:200px;
-	background:url(menu_fold.png) no-repeat;
-}
-
-#menu_fold_extension {
-	position:absolute;
-	top:820px;
-	height:200px;
-	margin-left:1230px;
-	width:60px;
-}
-
-#portrait {
-	position:absolute;
-	top:700px;
-	left:57px;
-	height:80px;
-	width:80px;
-	background:url(gravatar.jpeg) no-repeat;
-	z-index:20;
-}
-
-#connect {
-	position:absolute;
-	top:25px;
-	left:720px;
-	font-size:15px;
-}
-
-#container {
-	position:absolute;
-	top:100px;
-	left:0;
-	width:960px;
-	height:100%;
-	padding-left:20px;
-	padding-right:20px;
-}
-
-#banner {
-	width:960px;
-	height:250px;
-	border:1px solid #000;
-}
-
-#programmerbyheart h1,#musicianinspirit h1 {
-	text-align:center;
-}
-
-#programmerbyheart,#musicianinspirit {
-	width:460px;
-	float:left;
-	padding:10px;
-}
-
-#footer {
-	width:100%;
-}
-
-#tags {
-	margin:10px 0;
-	width:100%;
-}
-
-#tags .tag {
-	padding:.1em;
-	border:1px solid #484847;
-	border-radius:5px;
-}
-
-body {
-	color:#6d6553;
-}
-
-h1,h2,h3,h4,h5,h6 {
-	color:#536c6d;
-}
-
-a {
-	color:#536c6d;
-}
-
-a:hover {
-	color:#68536d;
-}
-
-#menu {
-	background-color:#536c6d;
-}
-
-#links .navlink a:hover {
-	color:#f4eef5;
-}
-
-#menu_fold_extension {
-	background-color:#506769;
-}
-
-#offsite {
-	color:#baaf97;
-}
-
-#offsite a {
-	color:#baaf97;
-}
-
-#offsite a:hover {
-	color:#f4eef5;
-}
-
-#portrait {
-	border:8px solid #baaf97;
-}
-
-.post_written_at {
-	color:#baaf97;
-}
-
-.post_footer h6 {
-	color:#6d6553;
-}
-
-.post_short .meta {
-	color:#baaf97;
-}
-
-.post_short {
-	border:1px solid #484847;
-	border-radius:1em;
-	margin-bottom:1em;
-}
-
-.post_short h1 {
-	margin-left:1em;
-}
-
-.post_short .read_more {
-	float:right;
-}
-
-.post_short .meta {
-	font-size:.7em;
-	text-align:right;
-	line-height:.5em;
-	padding-top:5px;
-}
-
-.post_short .meta strong {
-	font-size:1.6em;
-}
-
-.post h1,.post h2,.post h3,.post h4,.post h5,.post h6 {
-	margin-bottom:.3em;
-}
-
-.post h1 {
-	font-size:1.8em;
-	margin-top:1em;
-}
-
-.post h1.title {
-	font-size:2em;
-	margin:0;
-	margin-bottom:.3em;
-}
-
-.post h2 {
-	font-size:1.6em;
-}
-
-.post h3 {
-	font-size:1.4em;
-	font-style:italic;
-}
-
-.post h4 {
-	font-size:1.2em;
-}
-
-.post h5 {
-	font-size:1.1em;
-}
-
-.post h6 {
-	font-size:1em;
-}
-
-.post .section {
-	text-transform:uppercase;
-	float:left;
-	text-align:right;
-	line-height:2em;
-	width:150px;
-	font-style:none;
-	font-weight:700;
-	margin-right:1em;
-}
-
-.post .tags,.post .synopsis,.post .content {
-	display:block;
-	margin:1em;
-	padding-bottom:1em;
-	border-bottom:1px solid #484847;
-}
-
-.post .synopsis {
-	font-style:italic;
-}
-
-.post .synopsis .post_written_at {
-	text-align:right;
-	margin-right:1em;
-}
-
-.post .post_footer {
-	width:100%;
-}
-
-.post .post_footer h6 {
-	text-align:center;
-}
-
-* {
-	margin:0;
-	padding:0;
-}
-
-p {
-	padding:5px;
-}
-
-body {
-	background:url(bg.png);
-	font-family:"Trebuchet MS", Helvetica, sans-serif;
-}
-
-h1,h2,h3,h4,h5 {
-	text-transform:capitalize;
-	margin-top:.5em;
-	margin-bottom:.3em;
+h1 small {
+	text-transform:none;
 }
 
 h3 span,h4 span {
@@ -600,7 +249,7 @@ pre {
 	top:0;
 	left:1030px;
 	width:200px;
-	height:680px;
+	height:780px;
 }
 
 #logo {
@@ -616,6 +265,7 @@ pre {
 	position:absolute;
 	top:180px;
 	height:300px;
+	margin:0;
 }
 
 #links .navlink {
@@ -632,7 +282,7 @@ pre {
 
 #offsite {
 	position:absolute;
-	top:530px;
+	top:630px;
 	width:200px;
 	text-align:center;
 	font-size:25px;
@@ -649,7 +299,7 @@ pre {
 
 #menu_fold {
 	position:absolute;
-	top:680px;
+	top:780px;
 	height:200px;
 	width:200px;
 	background:url(menu_fold.png) no-repeat;
@@ -657,7 +307,7 @@ pre {
 
 #menu_fold_extension {
 	position:absolute;
-	top:680px;
+	top:780px;
 	height:200px;
 	margin-left:1230px;
 	width:60px;
@@ -665,7 +315,7 @@ pre {
 
 #portrait {
 	position:absolute;
-	top:572px;
+	top:672px;
 	left:57px;
 	height:80px;
 	width:80px;
@@ -673,11 +323,13 @@ pre {
 	z-index:20;
 }
 
+
 #connect {
 	position:absolute;
 	top:25px;
 	left:720px;
 	font-size:15px;
+	width: 290px;
 }
 
 #container {
@@ -700,12 +352,6 @@ pre {
 	text-align:center;
 }
 
-#programmerbyheart,#musicianinspirit {
-	width:460px;
-	float:left;
-	padding:10px;
-}
-
 #footer {
 	width:100%;
 }
@@ -721,3 +367,6 @@ pre {
 	border-radius:5px;
 }
 
+.category {
+	text-transform: capitalize;
+}
