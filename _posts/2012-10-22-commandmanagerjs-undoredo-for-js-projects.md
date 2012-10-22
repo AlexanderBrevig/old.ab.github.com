@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CommandManager.js, undo/redo for JS projects"
-tagline: "tag"
+tagline: "Safely manipulate state in the application"
 description: "Simply enable undo/redo in you JS applications by this small object"
 category: projects
 tags: [projects, javascript]
