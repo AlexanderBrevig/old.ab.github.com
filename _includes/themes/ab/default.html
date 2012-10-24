@@ -48,11 +48,14 @@
       </div>
       <div id="menu">
         <div id="logo"></div> 
-        <ul id="links">
+        <div id="links">
           {% assign pages_list = site.pages %}
           {% assign group = 'navigation' %}
           {% include JB/pages_list %}
-        </ul>
+          <span class="navlink">
+            <a href="/pages/projects/github/index.html">GitHub Projects</a>
+          </span>
+        </div>
 
         <div id="offsite">
           {
@@ -69,7 +72,10 @@
 
       {{ content }}
 
-      <footer>&forall; x &exist; y Love(x, y)</footer>
+      <footer>&forall; x &exist; y Love(x, y) 
+        <small><a href="http://localhost:4000/sitemap.txt">sitemap</a></small>
+        <small><a href="http://localhost:4000/atom.xml">atom</a></small>
+      </footer>
     </div>
     {% include JB/analytics %}
   </body>
