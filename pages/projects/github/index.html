@@ -15,11 +15,39 @@ description: "A list of my GitHub stuff"
 <script src="https://raw.github.com/AlexanderBrevig/GitHub.js/master/GitHub.js"></script>
 <script>
     GitHub.users('alexanderbrevig').repos(function(repos){
-        console.log(repos[0].name);
-        console.log(repos[0].description);
+        var myRepos = [],
+            forks = [],
+            $repo = {};
+        $(repos).each(function(){
+          date = new Date(this.created_at);
+          $repo = $("<div class='well" + (this.fork?" well-small":"") + "'>")
+              .append("<span class='pull-right'>"+date.toDateString()+"</span><h3><a href='"+ this.html_url +"'>"+this.name+"</a></h3>")
+              .append("<p>"+this.description+"</p>");
+          if (!this.fork) {
+            myRepos.push($repo);
+          } else {
+            forks.push($repo);
+          }
+        });
+        $("#repos").append("<h2 id='#repositories'>My repositories</h2>");
+        $("#repos").append(myRepos);
+        $("#repos").append("<h2 id='#forks'>My forks</h2>");
+        $("#repos").append(forks);
     });
 
     GitHub.users('alexanderbrevig').gists(function(gists){
-        console.log(gists[0].description);
+        var myGists = [],
+            $gist = {},
+            date = {}
+            time = "";
+        $(gists).each(function(){
+          date = new Date(this.created_at);
+          $gist = $("<div>")
+            .append("<h4><a href='"+ this.html_url +"'>"+this.description+"</a><span class='pull-right'>"+date.toDateString()+"</span></h4>");
+          myGists.push($gist);
+        });
+
+        $("#gists").append("<h2 id='#gists'>My gists</h2>");
+        $("#gists").append(myGists);
     });
 </script>
