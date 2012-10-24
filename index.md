@@ -24,6 +24,7 @@ tagline:
     <h4>Tags</h4>
     <ul class="tag_box">
     {% assign tags_list = first_post.tags %}
+    {% assign tags_limit = 3 %}
     {% include JB/tags_list %}
     </ul>
   {% endunless %}  

@@ -1,0 +1,53 @@
+---
+layout: page
+title: "Github-Projects-Pages-Alexander"
+description: "A list of my GitHub stuff"
+---
+{% include JB/setup %}
+
+<div class="container">
+    <div id="repos" class="">
+    </div>
+    <div id="gists" class="well well-small">
+    </div>
+</div>
+
+<script>
+GitHub.users('alexanderbrevig').repos(function(repos){
+var myRepos = [],
+    forks = [],
+    $repo = {};
+$(repos).each(function(){
+  date = new Date(this.created_at);
+  $repo = $("<div class='well" + (this.fork?" well-small":"") + "'>")
+      .append("<span class='pull-right'>"+date.toDateString()+"</span><h3><a href='"+ this.html_url +"'>"+this.name+"</a></h3>")
+      .append("<p>"+this.description+"</p>");
+  if (!this.fork) {
+    myRepos.push($repo);
+  } else {
+    forks.push($repo);
+  }
+});
+$("#repos").append("<h2 id='#repositories'>My repositories</h2>");
+$("#repos").append(myRepos);
+$("#repos").append("<h2 id='#forks'>My forks</h2>");
+$("#repos").append(forks);
+});
+
+GitHub.users('alexanderbrevig').gists(function(gists){
+console.log(gists);
+var myGists = [],
+    $gist = {},
+    date = {}
+    time = "";
+$(gists).each(function(){
+  date = new Date(this.created_at);
+  $gist = $("<div>")
+    .append("<h4><a href='"+ this.html_url +"'>"+this.description+"</a><span class='pull-right'>"+date.toDateString()+"</span></h4>");
+  myGists.push($gist);
+});
+
+$("#gists").append("<h2 id='#gists'>My gists</h2>");
+$("#gists").append(myGists);
+});
+</script>

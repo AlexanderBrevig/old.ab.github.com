@@ -19,3 +19,13 @@ group: navigation
     {% include JB/pages_list %}
   </ul>
 {% endfor %}
+
+<script type="text/javascript">
+//$(function(){
+	var hash = window.location.hash;
+	var el = document.getElementById(hash.substr(1));
+	var ul = el.nextElementSibling;
+	ul.style['background'] = "rgba(0,0,0,0.1)";
+//});
+
+</script>

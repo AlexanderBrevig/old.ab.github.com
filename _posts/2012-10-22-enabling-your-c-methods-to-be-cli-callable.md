@@ -4,7 +4,7 @@ title: "Enabling your C# methods to be CLI callable"
 tagline: "please.exe call my method"
 description: "I made a library that makes it easy to enable your static functions to be called through CLI"
 category: projects
-tags: [projects, csharp, programming, cli]
+tags: [projects, csharp, programming, cli, nuget]
 ---
 {% include JB/setup %}
 
@@ -12,7 +12,7 @@ tags: [projects, csharp, programming, cli]
 
 <p>Easily install with NuGet using Package Manager Console:</p>
 
-<pre><code class="cmake">PM&gt; <span class="keyword">Install</span>-Package LazyCLI
+<pre><code class="cmake">PM&gt; Install-Package LazyCLI
 </code></pre>
 
 <p>Give this class:</p>

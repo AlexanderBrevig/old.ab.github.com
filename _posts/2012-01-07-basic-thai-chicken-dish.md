@@ -4,7 +4,7 @@ title: "Basic Thai Chicken Dish"
 tagline: "Tasty Thai dish with curry and coconut milk"
 description: "Tasty Thai dish with curry and coconut milk"
 category: recipies
-tags: [recipies, thai]
+tags: [recipies]
 ---
 {% include JB/setup %}
 
