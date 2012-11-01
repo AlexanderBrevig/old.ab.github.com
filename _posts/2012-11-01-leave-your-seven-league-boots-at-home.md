@@ -3,8 +3,8 @@ layout: post
 title: "Leave your seven league boots at home"
 tagline: "Speed kills, or at least - acceleration does"
 description: ""
-category: 
-tags: []
+category: technology
+tags: [article, development]
 ---
 {% include JB/setup %}
 
