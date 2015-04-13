@@ -3,7 +3,7 @@ layout: post
 title: "ESP8266 Programming!"
 tagline: "WiFi for < $4"
 description: "A simple schematic and my breadboard for getting up and running"
-category: personal
+category: projects
 tags: [professional, job, iot, wice, esp8266]
 ---
 {% include JB/setup %}
