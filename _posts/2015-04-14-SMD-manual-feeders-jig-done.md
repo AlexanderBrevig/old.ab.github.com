@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Manual SMD feeder jig!"
-tagline: "Manual pick and place made easier"
-description: "I will be the ghost in the machine for this pick and place process"
+title: "Manual SMD feeder jig done!"
+tagline: "Jig complete and I'm happy about it"
+description: "Self help is the best help"
 category: projects
 tags: [job, wice, pcb, pnp]
 ---
