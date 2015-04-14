@@ -11,7 +11,7 @@ tags: [job, wice, pcb, pnp]
 #Manual SMD feeders jig done!
 
 Yesterday I started making my own jig for manual SMD work.
-You can see the initial steps here: http://alexanderbrevig.github.io/projects/2015/04/13/SMD-manual-feeders-jig/
+You can see the initial steps [here](http://alexanderbrevig.github.io/projects/2015/04/13/SMD-manual-feeders-jig/)!
 
 It is finally complete, and since images is worh more than x words (where x is said to be 1000) here are some:
 
