@@ -11,7 +11,7 @@ tags: [electronics, workbench, studio, gaming]
 #I'm in the process of making a workbench at home!
 
 Here's the plans so far:
-<p><img src="/assets/images/workbench.jpg" alt="Workbench plans" /></p>
+<p><img src="/assets/images/workbench.png" alt="Workbench plans" /></p>
 
 The only thing in my current setup is actually the computer. Every other piece of kit is in the process of being ordered or already on its way.
 
