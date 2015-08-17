@@ -17,4 +17,6 @@ The only thing in my current setup is actually the computer. Every other piece o
 
 Exciting times ahead!
 
+EDIT: Look! It's <a href="/projects/2015/04/27/Workbench-project-done/">done</a>!
+
 Do you have a 'man cave' (I don't particularly like that word, but it seems somewhat fitting)?
