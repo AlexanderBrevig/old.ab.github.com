@@ -19,6 +19,8 @@ And for some results:
 
 <p><img src="/assets/images/benchbuild/workstation.png" alt="Workstation result" /></p>
 
+Apologies for the horrid image. I need a new phone...
+
 ###Electronics workbench
 
 <p><img src="/assets/images/benchbuild/workbench.png" alt="Workstation result" /></p>
