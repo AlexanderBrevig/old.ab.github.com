@@ -368,5 +368,5 @@ pre {
 }
 
 .category {
-	text-transform: capitalize;
+	text-transform: initial;
 }
