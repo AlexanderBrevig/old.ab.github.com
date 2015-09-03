@@ -10,6 +10,8 @@ tags: [electronics, workstation, clock]
 
 # The tried and true 'artsy' project is well along it's path to completion!
 
+*NB: Click images to zoom*
+
 I sat out to make a word clock. This will be the first project I complete at my [new workbench](http://alexanderbrevig.github.io/projects/2015/08/18/Workbench-project-complete/) and as such I though I'd do it properly.
 
 That is why the word clock will spec with the following:
@@ -96,3 +98,17 @@ Here's the schematic:
 
 Here's the board:
 ![APA102C ](/assets/images/wordclock/apa102c_schem.png)
+
+
+<script>
+$(function(){
+  $("img").css("width", "50%").click(function(img){
+    var width = $(this).css("width");
+    if (parseInt(width) < 400){
+      $(this).css("width", "100%");
+    } else {
+      $(this).css("width", "50%");
+    }
+  });
+});
+</script>
