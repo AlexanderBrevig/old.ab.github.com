@@ -60,7 +60,7 @@ When all is said and done, I am _one_, yes *one* pin short! This annoying truth 
 And due to my lack of experience, I designed something that *WILL PROBABLY OR CERTAINLY NOT WORK*!
 Again, back to the drawing board, and this time I designed something with shift registers. Oh my the over engineering that went into this one... Have a look:
 
-![Shift registers, buffers and mosfets](/assets/images/wordclock/shift_buff_mosfet.png)
+![Shift registers, buffers and mosfets](/assets/images/wordclock/shift_buff_mosfet.jpg)
 
 So, that is one 8bit serial-in/parallel-out shift register. That latch feeds a buffer that protects the shiftreg from the 12v and drives the PFET.
 I planned on having 3 shift registers, 3 hex buffers and 20 power mosfets...
