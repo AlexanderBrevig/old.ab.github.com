@@ -22,7 +22,7 @@ That is why the word clock will spec with the following:
 
 Let's take a look at the design I sent to the aluminum front plate service:
 
-![Clockface design](/assets/images/wordclock/clockface.png)
+![Clockface design](/assets/images/wordclock/clockface.jpg)
 
 For the LEDs I chose to go for the promising [APA102C](http://www.adafruit.com/datasheets/APA102.pdf). It uses a simple [I2C](https://en.wikipedia.org/wiki/I%C2%B2C) like bus for communication, and it's easily cascadeable.
 
