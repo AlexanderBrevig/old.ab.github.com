@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Norwegian word clock project!"
-tagline: "28cm square aluminum beauty"
-description: "At least I hope it will be somewhat good looking"
+tagline: "Lessons learned TL;DR Use ICs"
+description: "28 cm square black anodized aluminum beauty"
 category: projects
 tags: [electronics, workstation, clock]
 ---
