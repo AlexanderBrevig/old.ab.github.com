@@ -11,14 +11,14 @@ tags: [electronics, guitar, diy, calculator, javascript]
 # Try it out why don't you!?
 
 <input id="input" 
-	style="margin:1em; padding:1em; display: block; width:100%;" 
+	style="margin:1em; padding:1em; display: block; width:90%;" 
 	value="( 10k + 1k2 ) * 10n" />
 
 <div id="answer" 
-	style="margin:1em; padding:1em; display: block; width:100%; font-family: monospace"></div>
+	style="margin:1em; padding:1em; display: block; width:90%; font-family: monospace"></div>
 
 <div id="tips"
-	style="color: #333; margin:1em; padding:1em; display: block; width:100%; font-family: monospace">
+	style="color: #333; margin:1em; padding:1em; display: block; width:90%; font-family: monospace">
     Currently we support the following SI prefixes (though as suffixes):
     <ul>
       	<li>Tera T = 1000000000000,</li>
