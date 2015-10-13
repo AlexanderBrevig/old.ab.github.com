@@ -34,6 +34,13 @@ tags: [electronics, guitar, diy, calculator, javascript]
   		<li>Nano n = 0.000000001</li>
   		<li>Pico p = 0.000000000001</li>
     </ul>
+
+    And you can get help by the following functions:
+    <ul>
+    	<li>freqRC(r, c) for finding cutoff frequency in RC filter</li>
+    	<li>freqLC(l, c) for finding resonant frequency of LC filter</li>
+    	<li>impedanceLC(l, c) for finding impedance of LC filter</li>
+    </ul>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.0.0-alpha1.js"></script>
