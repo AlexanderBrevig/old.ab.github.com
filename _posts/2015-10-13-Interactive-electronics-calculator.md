@@ -15,13 +15,13 @@ tags: [electronics, guitar, diy, calculator, javascript]
 	value="( 10k + 1k2 ) * 10n" />
 
 <div id="answer" 
-	style="margin:1em; padding:1em; display: block; width:100%; font-family: monospace"/>
+	style="margin:1em; padding:1em; display: block; width:100%; font-family: monospace"></div>
 
 <div id="tips"
 	style="color: #333; margin:1em; padding:1em; display: block; width:100%; font-family: monospace">
     Currently we support the following SI prefixes (though as suffixes):
     <ul>
-      	<li>Tera T = 1000000000000,
+      	<li>Tera T = 1000000000000,</li>
   		<li>Giga G = 1000000000</li>
   		<li>Mega M = 1000000</li>
   		<li>Kilo k = 1000</li>
@@ -32,7 +32,7 @@ tags: [electronics, guitar, diy, calculator, javascript]
   		<li>Milli m = 0.001</li>
   		<li>Micro u = 0.000001</li>
   		<li>Nano n = 0.000000001</li>
-  		<li>Pico p = 0.000000000001</li</li>
+  		<li>Pico p = 0.000000000001</li>
     </ul>
 </div>
 
@@ -90,9 +90,9 @@ $(function(){
 	  });
 	  $("#answer").html(""); 
 	  $("#answer").append(algo);
-	  $("#answer").append("<br/> = "); 
-	  $("#answer").append(eval(algo));
-
+	  $("#answer").append("<br/> ="); 
+  	  $("#answer").append("<span>" + eval(algo) + "</span>");
+	  $("#answer span").css("font-size", "2em");
   });
   $("#input").keyup();
 });
