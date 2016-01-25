@@ -12,8 +12,8 @@ tags: [nordic semiconductor, cpp, nrf52, BLE, NFC, gnu, toolchain]
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1qgyn1Fbe-w" frameborder="0" allowfullscreen></iframe>
 
-* download sdk from (developer.nordicsemi.com)[https://developer.nordicsemi.com/nRF52_SDK/] for me it was this (nRF52_SDK_0.9.2.zip)[https://developer.nordicsemi.com/nRF52_SDK/nRF52_SDK_v0.x.x/nRF52_SDK_0.9.2_dbc28c9.zip] and unzip to somewhere. For me it was `D:/nordicsemi`.
-* download (make)[http://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=kent&download=] and install
+* download sdk from [developer.nordicsemi.com](https://developer.nordicsemi.com/nRF52_SDK/) for me it was this [nRF52_SDK_0.9.2.zip](https://developer.nordicsemi.com/nRF52_SDK/nRF52_SDK_v0.x.x/nRF52_SDK_0.9.2_dbc28c9.zip) and unzip to somewhere. For me it was `D:/nordicsemi`.
+* download [make](http://sourceforge.net/projects/gnuwin32/files/make/3.81/make-3.81.exe/download?use_mirror=kent&download=) and install
 * download http://www.mingw.org/wiki/msys and add to path (should do it by itself)
 * download https://launchpad.net/gcc-arm-embedded to somewhere, for me it was `D:/gnu/5.2 2015q4`
 * update `Makefile.windows` found in `nRF52_SDK_INSTALL\components\toolchain\gcc`
